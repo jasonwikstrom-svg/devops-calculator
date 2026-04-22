@@ -54,7 +54,7 @@ This project uses Github Actions to automatically:
 ---
 
 ## Live Version
-https://medieinstitutet.github.io/sys25d-devops-inl-1-jasonwikstrom-svg/
+https://jasonwikstrom-svg.github.io/devops-calculator/
 
 ---
 
