@@ -45,6 +45,13 @@ button:hover {
   background: #535bf2;
 }
 
+#clear {
+  background: #cc4444;
+}
+
+#clear:hover {
+  background: #b33a3a;
+}
 
 .card {
   margin-top: 20px;

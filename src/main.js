@@ -13,6 +13,7 @@ document.querySelector('#app').innerHTML = `
       <button id="sub">-</button>
       <button id="mul">*</button>
       <button id="div">/</button>
+      <button id="clear">Clear</button>
     </div>
 
     <div class="card">
@@ -47,3 +48,8 @@ document.querySelector('#div').onclick = () => {
   document.querySelector('#result').textContent = `Resultat: ${divide(a, b)}`
 }
 
+document.querySelector('#clear').onclick = () => {
+  document.querySelector('#num1').value = ''
+  document.querySelector('#num2').value = ''
+  document.querySelector('#result').textContent = ''
+}
